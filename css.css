@@ -104,6 +104,12 @@ section div {
 }
 
 /* IMAGENS DO GRÁFICO */
+#graficos .separar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
 #graficos img {
     width: 100%;
     height: 100%;
@@ -115,6 +121,8 @@ section div {
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
+    width: 100%;
+    height: 100%;
 }
 
 /* ESTILO DOS JOGOS */
@@ -187,19 +195,6 @@ footer {
     margin: 0;
 }
 
-/* RESPONSIVIDADE */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-    }
-    #graficos div {
-        flex-direction: column;
-        align-items: center;
-    }
-    #jogos div {
-        width: 90%;
-        margin: 10px auto;
-    }
-}
+  
 
   
